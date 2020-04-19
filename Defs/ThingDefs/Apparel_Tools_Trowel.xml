@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ApparelBase">
+    <defName>I_EMTool_Trowel</defName>
+    <label>Trowel</label>
+    <description>Small trowel, makes digging and harvesting plants almost fun. Equipped in the belt slot.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Trowel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>0.4</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <PlantWorkSpeed>0.07</PlantWorkSpeed>
+      <PlantHarvestYield>0.03</PlantHarvestYield>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>Neolithic</li>
+      </tags>
+      <!--
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+-->
+    </apparel>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>10</costStuffCount>
+    <recipeMaker>
+      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Sculpt</effectWorking>
+      <soundWorking>Recipe_Sculpt</soundWorking>
+      <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ApparelBase">
+    <defName>I_EMTool_Weight</defName>
+    <label>Counterweight</label>
+    <description>This small weight on a strap can be easily hooked on a weapon to make its aim feel more natural. Equipped in the belt slot.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Weight</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Cloth>10</Cloth>
+    </costList>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>0.4</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>Neolithic</li>
+      </tags>
+      <!--
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+-->
+    </apparel>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>5</costStuffCount>
+    <recipeMaker>
+      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Sculpt</effectWorking>
+      <soundWorking>Recipe_Sculpt</soundWorking>
+      <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+</Defs>

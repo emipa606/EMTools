@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ApparelBase">
+    <defName>I_EMTool_ScrewD</defName>
+    <label>Screwdriver</label>
+    <description>Screwdriver, great for small fiddly tasks such as picking mechanoids to pieces. Equipped in the belt slot.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Item/ScrewD</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Plasteel>5</Plasteel>
+      <Steel>5</Steel>
+    </costList>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>0.4</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <ButcheryMechanoidSpeed>0.10</ButcheryMechanoidSpeed>
+      <ButcheryMechanoidEfficiency>0.05</ButcheryMechanoidEfficiency>
+      <SmithingSpeed>0.05</SmithingSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>Industrial</li>
+      </tags>
+      <!--
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+-->
+    </apparel>
+    <recipeMaker>
+      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Sculpt</effectWorking>
+      <soundWorking>Recipe_Sculpt</soundWorking>
+      <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+</Defs>
