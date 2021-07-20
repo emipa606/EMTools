@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>EM Tools (Continued)</name>
   <packageId>Mlie.EMTools</packageId>
@@ -7,6 +7,7 @@
   <supportedVersions>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -19,22 +20,38 @@
   <loadAfter>
     <li>Alias.DegeneralizeWork</li>
   </loadAfter>
-  <description>Update of Moshs mod for RimWorld 1.1
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Moshs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1349887880
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Support-chat:
-https://invite.gg/mlie
-
-Non-steam version:
-https://github.com/emipa606/EMTools
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/EMTools][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
 Wonder where all the tools went? Hammers, pens, cutlery, and all that good stuff? Optional items for the belt equip slot for those just not suited to battle.
 
 A set of craftable tools for your colonists to use, they are equipped in the belt slots (because where else would you carry all your stuff??) Offering small bonuses to various skills for those colonists who have no need nor want for shield belts.
 
 If you like this then check out the other mods in the Early Man pack for tribal fun and frolicks!
-https://steamcommunity.com/sharedfiles/filedetails/?id=1342138383</description>
+https://steamcommunity.com/sharedfiles/filedetails/?id=1342138383
+
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+
