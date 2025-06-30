@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Pick -->
+  <I_EMTool_Pick.label>Pick</I_EMTool_Pick.label>
+  <!-- EN: Just a simple pick, useful for mining. Equipped in the belt slot. -->
+  <I_EMTool_Pick.description>Just a simple pick, useful for mining. Equipped in the belt slot.</I_EMTool_Pick.description>
+</LanguageData>

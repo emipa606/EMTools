@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 3098120566
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 14fc3824cae0611a68a0323543b1d74e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 14fc3824cae0611a68a0323543b1d74e
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.EMTools/Textures/Things/Item/Pick.png
+- Assets/Data/Mlie.EMTools/Textures/Things/Item/Quill.png
+- Assets/Data/Mlie.EMTools/Textures/Things/Item/Trowel.png
+- Assets/Data/Mlie.EMTools/Textures/Things/Item/Ladle.png
+- Assets/Data/Mlie.EMTools/Textures/Things/Item/Cutlery.png
+- Assets/Data/Mlie.EMTools/Textures/Things/Item/Chisel.png
+- Assets/Data/Mlie.EMTools/Textures/Things/Item/Seal.png
+- Assets/Data/Mlie.EMTools/Textures/Things/Item/Weight.png
+- Assets/Data/Mlie.EMTools/Textures/Things/Item/Needle.png
+- Assets/Data/Mlie.EMTools/Textures/Things/Item/Suture.png
+- Assets/Data/Mlie.EMTools/Textures/Things/Item/Cleaver.png
+- Assets/Data/Mlie.EMTools/Textures/Things/Item/Hammer.png
+- Assets/Data/Mlie.EMTools/Textures/Things/Item/ScrewD.png
+- Assets/Data/Mlie.EMTools/Textures/Things/Item/Tongs.png
+Dependencies: []
